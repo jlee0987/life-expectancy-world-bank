@@ -85,7 +85,6 @@ bottom_10_plot.invert_yaxis()
 plt.title('Bottom 10 Countries by Life Expectancy')
 plt.show()
 
-
 #Median Percentage Spent on Healthcare - 2010 - 2019
 #Median Percentage over same period, grouped by Region and by Income Group
 
