@@ -1,6 +1,6 @@
 # 🌎 Life Expectancy Analysis
 #### Description
-The objective of this project is to determine if various socio-economic factors (such as income levels, CO2 emissions, health expenditure, etc.) are a useful indicator or predictor of life expectancy. <br/>
+The objective of this project is to determine if various socio-economic factors (such as income levels, CO2 emissions, health expenditure, etc.) are a useful indicator or predictor of life expectancy. The Python libraries used include: pandas, matplotlib and seaborn. <br/>
 
 
 #### Background
