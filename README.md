@@ -1,7 +1,7 @@
 # 🌎 Life Expectancy Analysis
 #### Description
 The objective of this project is to determine if various socio-economic factors (such as income levels, CO2 emissions, health expenditure, etc.) are a useful indicator or predictor of life expectancy. The Python libraries used include: pandas, matplotlib and seaborn. <br/><br/>
-Various statistical measures, such as the median and mean, were computed for various variables, such as Region and Income Group. A Kernel Density Estimate Plot was also used to view the distribution of the data, and a Pearson's Correlation Coefficient Heatmap was generated to determine the correlation between all variables/columns in the dataset.
+Various statistical measures, such as the median and mean, were computed for variables, such as Region and Income Group. A Kernel Density Estimate Plot was also used to view the distribution of the data, and a Pearson's Correlation Coefficient Heatmap was generated to determine the correlation between all variables/columns in the dataset.
 
 
 #### Background
