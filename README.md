@@ -8,4 +8,4 @@ The objective of this project is to determine if various socio-economic factors 
 ▪ I have filtered the data for 2019 to present a more current analysis.<br/>
 
 #### Dataset
-The Kaggle dataset used for this analysis can be found here: https://www.kaggle.com/datasets/mjshri23/life- expectancy-and-socio-economic-world-bank/data
+The Kaggle dataset used for this analysis can be found here: [https://www.kaggle.com/datasets/mjshri23/life-expectancy-and-socio-economic-world-bank/discussion](https://www.kaggle.com/datasets/mjshri23/life-expectancy-and-socio-economic-world-bank/data)
