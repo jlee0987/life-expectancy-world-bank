@@ -5,4 +5,4 @@ The objective of this project is to determine if various socio-economic factors 
 
 ### Background
 ▪ The dataset I have chosen is a World Bank CSV Dataset which covers a period of 20 years – from 2000 to 2019.<br/>
-▪ For the purpose of this analysis, I have filtered the data for 2019 to present a more current analysis.<br/>
+▪ I have filtered the data for 2019 to present a more current analysis.<br/>
