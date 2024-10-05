@@ -2,9 +2,10 @@
 
 import requests
 
+#Retrieving the URL and returning a response object
 url = 'https://www.kaggle.com/datasets/mjshri23/life-expectancy-and-socio-economic-world-bank/download?datasetVersionNumber=1'
-
 response=requests.get(url)
+
 with open('life_expectancy.csv', 'w') as f:
   if response.ok:
 		f.write(response.content)
@@ -12,7 +13,7 @@ with open('life_expectancy.csv', 'w') as f:
 
 #Data Cleaning - filtering for data from 2019 only
 import pandas as pd
-df=pd.read_csv('file:///Users/jillianlee/Downloads/life%20expectancy.csv')
+df=pd.read_csv("../../Downloads/life%20expectancy.csv")
 df.drop(columns=['Country Code', 'Injuries'], inplace=True)
 df_2019=df.loc[df['Year'] == 2019]
 df_new=df_2019.dropna(axis=0, subset=['Life Expectancy World Bank'])
@@ -119,7 +120,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df=pd.read_csv('file:///Users/jillianlee/Downloads/life%20expectancy.csv')
+df=pd.read_csv("../../Downloads/life%20expectancy.csv")
 df.drop(columns=['Country Code', 'Injuries'], inplace=True)
 df_2019=df.loc[df['Year']==2019]
 df_new=df_2019.dropna(axis=0,subset=[‘Life Expectancy World Bank’])
